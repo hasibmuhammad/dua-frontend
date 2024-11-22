@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS", // Use ES Modules
+    "moduleResolution": "Node", // Resolve Node.js modules
+    "target": "ESNext", // Use a modern JavaScript target
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Compatibility with CommonJS
+    "skipLibCheck": true, // Skip type checks for node_modules
+    "outDir": "./dist", // Compile output directory
+    "rootDir": "./src" // Source files directory
+  },
+  "include": ["src/**/*"]
+}
